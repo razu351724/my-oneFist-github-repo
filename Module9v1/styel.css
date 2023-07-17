@@ -19,13 +19,13 @@
 }
 .p-commen-cless{
   color: var(--dark-03, #727272);
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   margin: 24px auto;
 }
 .h3-commen-cless{
   color: var(--dark-01, #131313);
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
 
 }
@@ -170,6 +170,16 @@ img{width: 100%; height: 100%;}
     font-weight: 600;
   }
 
+  /* Our Sponspors section stated  */
+  .our-sponspors{
+    text-align: center;
+  }
+  /* our sponspors img */
+  .our-sponspors-img{
+    display: flex;
+    justify-content: space-between;
+  }
+
   /* responsive media queries stated */
 
   /* mobile device media query */
@@ -205,7 +215,8 @@ img{width: 100%; height: 100%;}
     .banner-titel h1{font-size: 20px;}
     .banner-titel p{font-size: 10px;}
     .banner-img{
-        width: auto;
+        width:auto;
+        
     }
     .banner-img{
       width:auto;
@@ -232,6 +243,7 @@ img{width: 100%; height: 100%;}
       gap: 15px;
       width: 100%;
     }
+    
     .teams-content{
       display:flex;
       flex-direction: column;
@@ -276,10 +288,26 @@ img{width: 100%; height: 100%;}
       gap: 15px;
     }
     .facts-card-container .card{
+      border: none;
+      padding: 20px 10px;
+    }
+    .facts-card-container .card{
       /* padding: 50px 30px; */
       padding:20px 0;
     }
     .some-facts{text-align: center;}
+    /* Our Sponspors section stated */
+    .our-sponspors-img{
+      flex-direction: column;
+    }
+    .our-sponspors-img img{
+      width: 160px;
+      margin: 15px auto;
+    }
+
+    .fix-width{
+      width: auto;
+    }
 
   }
 /* Tablet device media query */
@@ -402,9 +430,22 @@ img{width: 100%; height: 100%;}
       gap: 15px;
     }
     .facts-card-container .card{
-      /* padding: 50px 30px; */
-      padding:20px 0;
+      border: none;
+      padding: 30px 10px;
     }
     .some-facts{text-align: center;}
+
+     /* Our Sponspors section stated */
+     .our-sponspors-img{
+      flex-direction: column;
+    }
+    .our-sponspors-img img{
+      width: 160px;
+      margin: 15px auto;
+    }
+
+    .fix-width{
+      width: auto;
+    }
 }
 
