@@ -29,6 +29,12 @@
   font-weight: 700;
 
 }
+.h4-common-class{
+    color: var(--dark-01, #131313);
+    font-size: 35px;
+    font-weight: 600;
+
+}
 
 img{width: 100%; height: 100%;}
 .fix-width{
@@ -141,6 +147,65 @@ img{width: 100%; height: 100%;}
   }
   /* Some Facts section */
   .some-facts{margin: 50px auto;}
+  /* Features you will love  section stated */
+  .features{
+    margin: 50px auto;
+    display: flex;
+    gap: 50px;
+  }
+  .features h3{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+  }
+  .features p{
+    width: 586px;
+    margin-left: 0;
+  }
+  .features-left{
+    margin-top: 20px;
+  }
+  .features-card{
+    width: 586px;
+    padding: 30px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  }
+  .features-rigth{
+    position: relative;
+
+  }
+  .features-rigth img{
+    margin-left: 100px;
+  }
+  .featuer-10-year{
+    background-color: #FF900E;
+    width: 342px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 11px;
+    bottom: -67px;
+  }
+  .featuer-10-year h1{
+    color: #FFF;
+    /* text-align: center; */
+    font-size: 65px;
+    font-weight: 700;
+  }
+  .featuer-10-year{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  /* Some Facts section stated */
+    .some-facts{
+      margin:200px auto ;
+    }
   /* facts-card-container stated  */
   .facts-card-container{
     display: flex;
@@ -178,6 +243,19 @@ img{width: 100%; height: 100%;}
   .our-sponspors-img{
     display: flex;
     justify-content: space-between;
+  }
+
+  /* footer section */
+  footer{
+    width: 1920px;
+    margin: 10px auto;
+    
+  }
+  .footer-item{ 
+    text-align: center;
+    background-color: #FFF4E7;
+    padding: 8px 0;
+    
   }
 
   /* responsive media queries stated */
@@ -308,6 +386,28 @@ img{width: 100%; height: 100%;}
     .fix-width{
       width: auto;
     }
+    /* Features you will love  section  stated */
+    .features{
+      flex-direction: column;
+    }
+    .features-left{text-align: center;}
+    .features-rigth img{
+      width: 100%;
+      margin-left: 0;
+    }
+    .features p{
+      width: auto;
+      margin: 20px auto;
+    }
+    .features-card{
+      width: auto;}
+        /* footer section */
+  footer{
+    width: auto;
+  }
+  .footer-item{ 
+    width:100%;
+  }
 
   }
 /* Tablet device media query */
@@ -447,5 +547,15 @@ img{width: 100%; height: 100%;}
     .fix-width{
       width: auto;
     }
+    .features{
+      flex-direction: column;
+    }
+ /* footer section */
+  footer{
+    width: auto;
+  }
+  .footer-item{ 
+    width:100%;
+  }
 }
 
