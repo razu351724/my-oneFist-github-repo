@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 400px;
+            border: 3px solid greenyellow;
+            margin-bottom: 10px;
+            overflow: auto;
+        }
+        #box-1{
+            /* overflow: hidden; */
+            /* overflow: scroll;
+            overflow-x:hidden; */
+        }
+        .ellipsis{
+            width: 200px;
+            border: 2px solid grey;
+            white-space: nowrap;
+            overflow: hidden;
+            /* text-overflow: ellipsis; */
+            text-overflow: clip;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <p title="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, temporibus." class="ellipsis">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, temporibus.
+        </p>
+    </header>
+    <section>
+        <!-- .box*2>h3{ My Text BOx $}+p>lorem200 -->
+        <div id="box-1" class="box">
+            <h3> My Text BOx 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, consectetur autem. Ipsa accusantium quas assumenda architecto, error tempora debitis deserunt, nostrum quibusdam aut cumque quam explicabo doloribus labore quo, exercitationem nesciunt libero alias vero. Aut mollitia recusandae eos illo cumque unde, dolore praesentium nulla eveniet rem! Nihil ratione adipisci praesentium quas nesciunt, libero recusandae alias voluptatum reiciendis, aliquid est eligendi. Facere ea eveniet in possimus culpa repudiandae ut doloribus sunt expedita? Autem, fugiat commodi iusto id similique temporibus eum natus eius, vero, iure perferendis! Voluptate unde magni, quas et praesentium numquam corrupti ab, fugiat alias impedit veritatis optio, quisquam ipsam dolores quo? Natus eligendi nam fuga qui maxime nisi exercitationem quas delectus placeat harum culpa consequatur excepturi autem voluptas dicta, quia fugit beatae quidem cum dolorem unde neque. Laudantium dignissimos quidem, perferendis nobis molestiae perspiciatis nam asperiores impedit assumenda recusandae ullam ad architecto at earum ut nostrum. Cum ea dolor corporis, laudantium mollitia provident adipisci, quas totam neque commodi non obcaecati! Voluptatibus provident laboriosam, delectus illum quas tempore earum recusandae vitae ipsum rem, assumenda harum consequuntur nam officiis animi rerum. Veritatis quasi aperiam deserunt, pariatur iste nam, dolore cupiditate possimus provident obcaecati a recusandae placeat fugit reiciendis sed vel sunt.</p>
+        </div>
+        <div class="box">
+            <h3> My Text BOx 2</h3>
+            <p>Obcaecati assumenda, iste suscipit sunt similique, veniam qui quasi voluptatum consequuntur facilis necessitatibus consequatur numquam at consectetur. Distinctio, veritatis illo. Nam placeat quidem iste aliquid quae odit excepturi et officia molestias. Id porro eum necessitatibus voluptatibus quos assumenda, consectetur tenetur architecto alias corporis libero officia neque cum earum vitae quae. Veritatis omnis commodi laborum, ipsam nisi totam dolorem vitae amet eveniet sint, voluptatum minus ad deserunt quae ea porro quisquam voluptates corporis, culpa repellat. Numquam provident iure in blanditiis consectetur dolorem autem quia voluptate veritatis! Enim quos iusto voluptatibus unde dolores ipsam accusamus? Dolore quaerat velit, at beatae iusto quos eius quis dignissimos asperiores officia, repellat praesentium magnam molestias, architecto vero? Quidem possimus nemo quam tenetur, sequi magnam impedit? Error voluptatem voluptatibus explicabo quis temporibus aliquid repellendus eum tempore itaque est odio dolores esse quasi perspiciatis veritatis dolore, nostrum iusto dolor ab minima! Ad impedit voluptatibus vitae corrupti dolorum dicta odit aperiam commodi officia consectetur temporibus similique libero, fuga aut maiores porro adipisci magnam explicabo ex animi illum quibusdam et a deserunt! Unde soluta quisquam magni. Eligendi totam debitis obcaecati tempora expedita doloremque dolores commodi, fugit nesciunt quidem facilis dicta quos exercitationem blanditiis, animi voluptas iste laudantium sit vitae non.</p>
+        </div>
+    </section>
+</body>
+</html>
